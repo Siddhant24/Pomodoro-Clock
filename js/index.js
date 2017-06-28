@@ -57,7 +57,7 @@ reset.addEventListener("click", function(){
   if(interval){
     clearInterval(interval);
     interval = null;
-    start.innerText = "Start  ";
+    start.innerText = "Start&nbsp;&nbsp;";
   }
   if(isSession)
     timer.innerText = session_length.innerText + ":00";
