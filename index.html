@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>Pomodoro Clock</title>
+  
+  
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'>
+
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+  <div class="container-fluid">
+  <div class="box">
+    <div class="row buttons">
+      <div class="col-xs-6">
+        <button class="btn" id="start">Start&nbsp;&nbsp;</button>
+      </div>
+      <div class="col-xs-6">
+        <button class="btn" id="reset">Reset</button>
+      </div> 
+    </div>
+    <div class="row increment">
+      <div class="col-xs-6">
+        <button id="left-minus">-</button>
+        <button id="left-plus">+</button>
+        <span class="info">Session</span>
+      </div>
+      <div class="col-xs-6">
+        <button id="right-minus">-</button>
+        <button id="right-plus">+</button>
+        <span class="info">Break</span>
+      </div> 
+    </div>
+    <div class="row session-display">
+      <div class="session-length col-xs-6">
+        <div class="well">
+          <span id="session-length">25</span>
+        </div>
+      </div> 
+      <div class="break-length col-xs-6">
+        <div class="well">
+          <span id="break-length">05</span>
+        </div>
+      </div>
+    </div>
+    <div class="display-timer">
+      25:00
+    </div>
+    <div class="ongoing">
+      Session
+    </div>
+  </div>
+</div>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script>
+
+    <script src="js/index.js"></script>
+
+</body>
+</html>
